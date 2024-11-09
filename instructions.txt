@@ -1,0 +1,163 @@
+Instructions for running the junglegame
+
+
+- Find your terminal on your pc  => open your command prompt for windows or mac
+  : Click Start and search for "Command Prompt."
+
+
+*******
+
+install the following programs and modules that require this game to play:
+
+- https://www.python.org/downloads/ Download Python for your Operation System on the web
+
+
+- Check if Python is installed:
+
+- python --version
+
+*******
+
+- I Command prompt type: cd with a space after it and find your unzipped folder that contains the files
+        drag the entire folder to your terminal and let it lose after the prompt
+        (C:\Users\username> cd     => for windows)
+
+
+
+*******
+
+Install Pip:
+
+- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py       => install pip where the game folder is located
+- python get-pip.py
+
+- sudo apt install python3-pip          => install pip where the game folder is located
+
+
+
+*******
+
+Install Pygame:
+
+- py -m pip install pygame
+
+Install Mixer:
+
+- pip install mixer       => install mixer where the game folder is located
+
+*******
+
+You can run the game!
+
+- python main.py      => run the game where the game folder is located
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Instructions for running the junglegame
+
+
+- Find your terminal on your pc  => open your command prompt for windows or mac
+  For Windows: Click Start and search for "Command Prompt."
+
+  For Mac: Find it in your local aplications folder and double click
+
+*******
+
+install the following programs and modules that require this game to play:
+
+- https://www.python.org/downloads/ Download Python for your Operation System on the web
+
+
+- Check if Python is installed:
+
+- python --version
+
+*******
+
+- type: cd with a space after it and find your unzipped folder that contains the files
+        drag the entire folder to your terminal and let it lose after the prompt
+        (C:\Users\username> cd     => for windows)
+        (username@Macbook username ~ % cd     => for Mac)
+
+
+
+*******
+
+Install Pip:
+
+For Windows:
+- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py       => install pip where the game folder is located
+- python get-pip.py
+
+- sudo apt install python3-pip          => install pip where the game folder is located
+
+
+For Mac:
+- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+- python3 get-pip.py
+
+*******
+
+Install Pygame:
+
+- For Windows:
+- py -m pip install pygame
+
+- For Mac:
+- pip install pygame         => install pygame where the game folder is located
+
+
+
+- pip install mixer       => install mixer where the game folder is located
+
+*******
+
+You can run the game!
+
+For Windows:
+- python main.py      => run the game where the game folder is located
+
+For Mac:
+- python3 main.py      => run the game where the game folder is located
+
+
+
+
+
+
+
+
+*******
+
+
+- Download Python for Mac if it doesn't work:
+
+- /bin/bash -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+- brew update && brew upgrade python
+
+- brew update
+
+- brew upgrade python
+
+********
